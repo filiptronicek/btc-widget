@@ -13,6 +13,7 @@ top.title("BitCoin tracker")
 top.config(height=330, width=150)
 top.geometry('330x150') 
 top.wm_attributes("-topmost", 1)
+top.iconbitmap('bitcoin.ico')
 
 key = getenv("NOMICS")
 
